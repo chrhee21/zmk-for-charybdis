@@ -40,28 +40,6 @@
             trackball-bindings = <&tsl>;
         };
 
-        layer_2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp RSHFT  &kp RGUI  &kp RCTRL  &kp RALT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans     &trans    &trans
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
-            >;
-        };
-
         /* layer_2 {
             bindings = <
 &none  &none   &none    &none   &none         &none         &kp N1         &none         &none     &none  &none   &to 0
